@@ -24,7 +24,7 @@ class orders {
 
     getRecords(resourceId, callBack) {
 
-         var sql = "select id, order_firstname, order_lastname, order_email, order_address, order_country, order_city, order_zip, order_products from store_orders";
+         var sql = "select id, order_firstname, order_lastname, order_email, order_address, order_country, order_zip, order_city, order_products from store_orders";
 
          var params = []; 
 
@@ -38,7 +38,7 @@ class orders {
 
     updateRecord(resourceId, jsonData, callBack) {
 
-        var sql = "update store_orders set order_firstname = ?, order_lastname = ?, order_email = ?, order_address = ?, order_country=?, order_city = ?, order_zip = ?, order_products = ?  where id = ?";
+        var sql = "update store_orders set order_firstname = ?, order_lastname = ?, order_email = ?, order_address = ?, order_country=?, order_zip = ?, order_city = ?,order_products = ?  where id = ?";
 
         var params = [];
 
