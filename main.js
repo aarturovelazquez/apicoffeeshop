@@ -4,7 +4,7 @@ var  orders = require('./orders.js');
 
 const http = require('https');
 const hostname = '54.172.198.79';
-const port = 80;
+const port = 3000;
 
 const server = http.createServer((req, res) => { 
 
