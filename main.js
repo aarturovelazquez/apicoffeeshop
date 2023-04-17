@@ -3,7 +3,7 @@ var http_requests = require('./http_requests.js');
 var  orders = require('./orders.js');   
 
 const http = require('http');
-const hostname = '127.0.0.1';
+const hostname = '3.84.192.104';
 const port = 8080;
 
 const server = http.createServer((req, res) => { 
