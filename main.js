@@ -2,9 +2,9 @@ var db_gateway    = require('./db_gateway.js');
 var http_requests = require('./http_requests.js');
 var  orders = require('./orders.js');   
 
-const http = require('http');
+const http = require('https');
 const hostname = '3.84.192.104';
-const port = 4000;
+const port = 80;
 
 const server = http.createServer((req, res) => { 
 
